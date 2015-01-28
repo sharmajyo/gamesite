@@ -1,0 +1,258 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	text-align:left;
+	color:#fff;
+	background-color: #5C5859;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+	color: #fff;
+}
+
+a:linked, a:visited{
+	color: #fff;
+}
+
+a:hover, a:active{
+	color:#C2C210;
+}	
+
+.mainheader{
+	width: 1000px;
+	height: 50px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	border-bottom: 3px solid #C2C210;
+}
+.mainheader nav ul li{
+	display:inline;
+	float:left;
+}
+
+.mainheader nav a:link, .mainheader a:visited {
+	display: inline-block;
+	padding: 17px 25px;
+	margin-right: 5px;
+	color: #fff;
+}
+
+.mainheader nav a:hover, .mainheader a:active, .mainheader nav .active a:link, .mainheader .active a:visited{
+	cursor:pointer;
+	color:#C2C210;
+}
+
+#chm{
+	border-left: 1px solid #C2C210;
+	border-right: 1px solid #C2C210;
+	position: fixed;
+	background-color: #000;
+	top:50px;
+	display:none;
+}
+
+#chm li{
+	clear: both;
+	text-align: center;
+	width: 120px;
+	border-bottom: 1px solid #A6A616;
+}
+
+#chm li a {
+	cursor: pointer;
+}
+
+#chm li a:link, #chm li a:visited{
+	color:#fff;
+}	
+
+.fullwidth{
+	height: 50px;
+	background-color: #000;
+	width:100% ;
+	border-bottom: 3px solid #C2C210;
+}
+
+.body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search input{
+	padding:5px;
+	float: right;
+	margin-top: 10px;
+	border: 1px solid #C2C210;
+	color: #fff;
+	background-color: #000;
+}
+
+.search input:focus{
+	border: 1px solid #C2C210;
+	background-color: #fff;
+	color: #000;
+}
+
+.about{
+	width:1000px;
+	height: 200px;
+	padding: 30px;
+	background-color: #3B3136;
+	border-bottom: 1px solid #C2C210;
+	border-left: 1px solid #C2C210;
+	border-right: 1px solid #C2C210;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.contactForm input,textarea{
+	margin:5px;
+	padding: 5px;
+	background-color: #3B3136;
+	border: 1px solid #C2C210;
+	color: #A6A616;
+	outline: none;
+}
+
+.contactForm input[type='text']:focus,textarea:focus,input[type='submit']:hover{
+	background-color: #666;
+	border: 1px solid #fff;
+	color: #000;
+	outline: none;
+}
+
+.contactForm label{
+	display: inline-block;
+	width: 100px;
+	float: left;
+	margin-top: 5px;
+}
+
+.contactForm textarea{
+	height: 140px;
+	width: 400px;
+}
+
+.contactForm .div1{
+	float: left;
+	margin-right: 20px;
+}
+
+.contactForm input[type='text']{
+	width: 300px;
+	height: 20px;
+}
+
+.freechamp{
+	padding: 8px;
+	width: 980px;
+	height: 280px;
+	margin-top: 20px;
+	border: 2px solid #C2C210;
+	transition:all 1s ease;															
+}
+
+.freechampextended{
+	height: 400px;
+}
+
+.freechamphead{
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	font-size: 25px;
+}
+.freechamphead h2{
+	margin-bottom: 3px;
+}	
+
+.freechampbody img{
+	width:90px;
+	height: 160px;
+	margin-top:auto;
+	margin-bottom: auto;
+	margin-left: 5px;
+	text-align: center;	
+	cursor: pointer;
+}
+.freechampbody{
+	padding: 5px;
+	height: 200px;
+	width: 99%;
+	display: flex;
+}
+
+.infoDiv{
+	display: none;
+	padding: 10px;
+}
+
+.closeBtn{
+	display: none;
+}
+
+.showCloseBtn{
+	float: right;
+	display: inline;
+	cursor: pointer;
+	margin-top: -20px;
+}
+

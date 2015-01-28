@@ -1,0 +1,359 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+body::-webkit-scrollbar,.about::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track,.about::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(163,163,160,0.8);
+}
+ 
+body::-webkit-scrollbar-thumb,.about::-webkit-scrollbar-thumb {
+  background-color: #ADAD10;
+  border-radius:10px;
+}
+
+body{
+	text-align:left;
+	color:#fff;
+	background-color: #2D2E2C;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+	color: #fff;
+}
+
+a:linked, a:visited{
+	color: #fff;
+}
+
+a:hover, a:active{
+	color:#ADAD10;
+}	
+
+.mainheader{
+	width: 1000px;
+	height: 50px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid #ADAD10;
+}
+.menuItem li{
+	display:inline-block;
+	float:left;
+	padding: 15px 20px;
+	margin-right: 5px;
+}
+
+.mainheader nav a:link, .mainheader a:visited {
+	color: #fff;
+}
+
+.mainheader nav a:hover, .mainheader a:active, .mainheader nav .active a:link, .mainheader .active a:visited{
+	cursor:pointer;
+	color:#ADAD10;
+}
+
+#chm{
+	border-left: 1px solid #ADAD10;
+	border-right: 1px solid #ADAD10;
+	clear:left;
+	position:fixed;
+	background-color: #000;
+	margin-right: 0px;
+	margin-left: -15px;
+	margin-top: 19px;
+	display: none;
+}
+
+#chm li{
+	text-align: center;
+	clear: left;
+	width: 70px;
+	border-bottom: 1px solid #A6A616;
+	margin-right: 0px;
+}
+
+#chm li a {
+	cursor: pointer;
+}
+
+
+.chm li a:hover, .chm li a:active, .chm li .active a:link, .chm li .active a:visited{
+	cursor:pointer;
+	color:#ADAD10;
+}
+
+.fullwidth{
+	height: 50px;
+	background-color: #000;
+	width:100% ;
+	border-bottom: 3px solid #ADAD10;
+}
+
+.body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search input{
+	padding:5px;
+	float: right;
+	margin-top: 10px;
+	border: 1px solid #ADAD10;
+	color: #fff;
+	background-color: #000;
+}
+
+.search input:focus{
+	border: 1px solid #ADAD10;
+	background-color: #fff;
+	color: #000;
+}
+
+.about{
+	width:90%;
+	height: 170px;
+	padding: 25px;
+	padding-bottom: 10px;
+	background-color: #535750;
+	border-bottom: 1px solid #ADAD10;
+	border-left: 1px solid #ADAD10;
+	border-right: 1px solid #ADAD10;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	overflow: scroll;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.contactForm input,textarea{
+	margin:5px;
+	padding: 5px;
+	background-color: #535750;
+	border: 1px solid #ADAD10;
+	color: #A6A616;
+	outline: none;
+}
+
+.contactForm input[type='text']:focus,textarea:focus,input[type='submit']:hover{
+	background-color: #666;
+	border: 1px solid #fff;
+	color: #000;
+	outline: none;
+}
+
+.contactForm label{
+	display: inline-block;
+	width: 100px;
+	float: left;
+	margin-top: 5px;
+}
+
+.contactForm textarea{
+	height: 140px;
+	width: 400px;
+}
+
+.contactForm .div1{
+	float: left;
+	margin-right: 20px;
+}
+
+.contactForm input[type='text']{
+	width: 300px;
+	height: 20px;
+}
+
+.freechamp{
+	padding: 8px;
+	width: 980px;
+	height: 280px;
+	margin-top: 20px;
+	border: 2px solid #ADAD10;
+	transition:all 1s ease;															
+}
+
+.freechampextended{
+	height: 400px;
+}
+
+.freechamphead{
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	font-size: 25px;
+}
+.freechamphead h2{
+	margin-bottom: 3px;
+}	
+
+.freechampbody img{
+	width:90px;
+	height: 160px;
+	margin-top:auto;
+	margin-bottom: auto;
+	margin-left: 5px;
+	text-align: center;	
+	cursor: pointer;
+}
+.freechampbody{
+	padding: 5px;
+	height: 200px;
+	width: 99%;
+	display: flex;
+}
+
+.infoDiv{
+	display: none;
+	padding: 10px;
+}
+
+.closeBtn{
+	display: none;
+}
+
+.showCloseBtn{
+	float: right;
+	display: inline;
+	cursor: pointer;
+	margin-top: -20px;
+}
+
+.left{
+	float:left;
+	clear: left;
+	width:350px;
+	margin-top: 10px;
+}
+
+.la{
+	width:100%;
+	margin-bottom: 10px;
+	height: auto;
+	border: 1px solid #ADAD10;
+}
+
+.lahead{
+	padding: 10px;
+	font-size:22px;
+	border-bottom: 1px solid #ADAD10;
+}
+
+.lapost{
+	height:auto;
+}
+
+.labody{
+	padding:6px;
+	padding-right: 4px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.labody:hover{
+	color: #CEF067;
+}
+
+.right{
+	float:right;
+	clear:right;
+	margin-top: 10px;
+	width: 640px;
+	height: :auto;
+}
+
+.laposthead{
+	font-weight:bold;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.lapostbody{
+	padding-left: 30px;
+	font-size: 14px;
+	display:none;
+}
+
+.news{
+	margin-bottom: 5px;
+	border: 1px solid #ADAD10;
+}
+
+.newsbody{
+	padding: 10px;
+	font-size: 14px;
+}
+
+.mediaDetail{
+	margin: 10px;
+}
+
+.mediaDetailMore{
+	display:none;
+}
+
+.showContent{
+	text-align: center;
+	width: 97%;
+	border: 1px solid #ADAD10;
+	padding: 8px;
+	cursor: pointer;
+}

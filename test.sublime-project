@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/jyoti_project/gameSite"
+		}
+	],
+	"settings":{
+		"xdebug":{"url":"http://localhost/gameSite/index.php"}
+	}
+}
