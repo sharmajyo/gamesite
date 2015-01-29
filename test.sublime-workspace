@@ -164,50 +164,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/style.css",
+			"file": "inc/phpfunctions.php",
 			"settings":
 			{
-				"buffer_size": 5572,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/search.php",
-			"settings":
-			{
-				"buffer_size": 426,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/information.php",
-			"settings":
-			{
-				"buffer_size": 579,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/script.js",
-			"settings":
-			{
-				"buffer_size": 2938,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/latestarticles.php",
-			"settings":
-			{
-				"buffer_size": 601,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/menu.php",
-			"settings":
-			{
-				"buffer_size": 1877,
+				"buffer_size": 95,
 				"line_ending": "Windows"
 			}
 		},
@@ -217,6 +177,14 @@
 			{
 				"buffer_size": 256,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.sublime-project",
+			"settings":
+			{
+				"buffer_size": 144,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -280,13 +248,17 @@
 	},
 	"file_history":
 	[
-		"/C/jyoti_project/gameSite/inc/footer.php",
-		"/C/jyoti_project/gameSite/inc/championsinfo.php",
+		"/C/jyoti_project/gameSite/css/style.css",
+		"/C/jyoti_project/gameSite/inc/search.php",
+		"/C/jyoti_project/gameSite/inc/information.php",
+		"/C/jyoti_project/gameSite/js/script.js",
 		"/C/jyoti_project/gameSite/inc/latestarticles.php",
-		"/C/jyoti_project/gameSite/index.php",
-		"/C/jyoti_project/gameSite/inc/freechampions.php",
 		"/C/jyoti_project/gameSite/inc/menu.php",
+		"/C/jyoti_project/gameSite/inc/freechampions.php",
+		"/C/jyoti_project/gameSite/inc/championsinfo.php",
 		"/C/jyoti_project/gameSite/inc/phpfunctions.php",
+		"/C/jyoti_project/gameSite/inc/footer.php",
+		"/C/jyoti_project/gameSite/index.php",
 		"/C/jyoti_project/gameSite/inc/head.php",
 		"/C/jyoti_project/gameSite/test.sublime-project",
 		"/C/jyoti_project/gameSite/test.sublime-workspace",
@@ -352,83 +324,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
+					"file": "inc/phpfunctions.php",
 					"settings":
 					{
-						"buffer_size": 5572,
+						"buffer_size": 95,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3368,
-								3368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2466.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/search.php",
-					"settings":
-					{
-						"buffer_size": 426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
+								7,
+								29
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 32.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/information.php",
-					"settings":
-					{
-						"buffer_size": 579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18,
-								18
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
@@ -436,88 +353,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/script.js",
-					"settings":
-					{
-						"buffer_size": 2938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1947,
-								1947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 10.0,
-						"translation.y": 867.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "inc/latestarticles.php",
-					"settings":
-					{
-						"buffer_size": 601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6,
-								157
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "inc/menu.php",
-					"settings":
-					{
-						"buffer_size": 1877,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								543,
-								554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 1,
 					"file": "inc/freechampions.php",
 					"settings":
 					{
@@ -543,7 +379,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 2,
+					"file": "test.sublime-project",
+					"settings":
+					{
+						"buffer_size": 144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "inc/championsinfo.php",
 					"settings":
 					{
@@ -554,8 +416,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								422,
+								399
 							]
 						],
 						"settings":

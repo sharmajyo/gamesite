@@ -1,0 +1,34 @@
+application: even-plate-839
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+  
+- url: /img/*
+  static_files: img/\1
+  upload: img/(.*)
+  
+- url: /js/script.js
+  script: js/script.js
+
+- url: /js/jQuery.js
+  script: js/jQuery.js
+  
+- url: /inc/championsinfo.*
+  script: inc/championsinfo.php
+ 
+- url: /inc/phpfunctions.*
+  script: inc/phpfunctions.php
+
+- url: /inc/search.*
+  script: inc/search.php
+  
+- url: /.*
+  script: index.php
+  
